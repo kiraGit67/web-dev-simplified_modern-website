@@ -104,3 +104,13 @@ body {
   color: white;
   padding: 0.25em 0;
 }
+
+.main-footer-container {
+  display: flex;
+  align-items: center;
+}
+
+.main-footer-container ul {
+  flex-grow: 1;
+  text-align: end;
+}
