@@ -1,5 +1,9 @@
 @import url("https://fonts.googleapis.com/css?family=Raleway: 300,400");
 
+@font-face {
+  font-family: "Booter - Zero Zero";
+}
+
 * {
   box-sizing: border-box;
   font-family: Raleway;
@@ -49,4 +53,11 @@ body {
   background-blend-mode: multiply;
   background-size: cover;
   padding-bottom: 30px;
+}
+
+.band-name {
+  text-align: center;
+  margin: 0;
+  font-family: "Booter - Zero Zero";
+  font-size: 4em;
 }
