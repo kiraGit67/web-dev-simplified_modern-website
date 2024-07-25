@@ -2,7 +2,10 @@
 
 @font-face {
   font-family: "Booter - Zero Zero";
-  src: url("fonts/Booter\ -\ Zero\ Zero.woff") format("woff");
+  src: url("fonts/Booter - Zero Zero.woff") format("woff"),
+    url("fonts/Booter - Zero Zero.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
 }
 
 * {
@@ -61,4 +64,5 @@ body {
   margin: 0;
   font-family: "Booter - Zero Zero";
   font-size: 4em;
+  font-weight: normal;
 }
