@@ -65,4 +65,9 @@ body {
   font-family: "Booter - Zero Zero";
   font-size: 4em;
   font-weight: normal;
+  color: rgba(255, 255, 255, 0.85);
+}
+
+.band-name-large {
+  font-size: 7.5em;
 }
