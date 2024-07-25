@@ -123,3 +123,21 @@ body {
   width: 30px;
   height: 30px;
 }
+
+@media screen and (max-width: 500px) {
+  .main-footer-container {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .about-band-image {
+    float: none;
+    width: 300px;
+    height: 300px;
+  }
+
+  p {
+    text-align: center;
+  }
+}
