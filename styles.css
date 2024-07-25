@@ -71,3 +71,12 @@ body {
 .band-name-large {
   font-size: 7.5em;
 }
+
+.content-section {
+  margin: 1em;
+}
+
+.container {
+  max-width: 1024px;
+  margin: 0 auto;
+}
