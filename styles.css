@@ -90,3 +90,10 @@ body {
   font-size: 2.5em;
   text-align: center;
 }
+
+.about-band-image {
+  float: left;
+  height: 200px;
+  width: 200px;
+  margin: 15px;
+}
