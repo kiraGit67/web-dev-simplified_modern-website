@@ -180,8 +180,15 @@ body {
 
 .tour-row {
   border-bottom: 1px solid black;
-  padding-block: 1em;
-  margin-bottom: 1em;
+  padding-bottom: 1em;
+}
+
+.tour-row + .tour-row {
+  margin-top: 1em;
+}
+
+.tour-row:last-child {
+  border-bottom: none;
 }
 
 @media screen and (max-width: 500px) {
