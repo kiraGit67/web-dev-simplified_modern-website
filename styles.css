@@ -191,6 +191,16 @@ body {
   border-bottom: none;
 }
 
+.tour-item {
+  display: inline-block;
+  padding-right: 0.5em;
+  width: 11%;
+}
+
+.tour-date {
+  color: #777;
+}
+
 @media screen and (max-width: 500px) {
   .main-footer-container {
     flex-direction: column;
