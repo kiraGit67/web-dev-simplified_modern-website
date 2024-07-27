@@ -124,6 +124,13 @@ body {
   height: 30px;
 }
 
+.btn {
+  text-align: center;
+  vertical-align: middle;
+  padding: 0.67em;
+  cursor: pointer;
+}
+
 @media screen and (max-width: 500px) {
   .main-footer-container {
     flex-direction: column;
