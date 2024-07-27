@@ -178,6 +178,12 @@ body {
   color: white;
 }
 
+.tour-row {
+  border-bottom: 1px solid black;
+  padding-block: 1em;
+  margin-bottom: 1em;
+}
+
 @media screen and (max-width: 500px) {
   .main-footer-container {
     flex-direction: column;
