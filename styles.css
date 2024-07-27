@@ -131,6 +131,21 @@ body {
   cursor: pointer;
 }
 
+.btn-header {
+  margin: 0.5em 15% 2em 15%;
+  color: white;
+  font-size: 1.5em;
+  font-weight: lighter;
+  border: 2px solid #2d9cdb;
+  border-radius: 0;
+  background-color: rgba(255, 255, 255, 0.1);
+  padding-inline: 2em;
+}
+
+.btn-header:hover {
+  background-color: rgba(255, 255, 255, 0.35);
+}
+
 @media screen and (max-width: 500px) {
   .main-footer-container {
     flex-direction: column;
