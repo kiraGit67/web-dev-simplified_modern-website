@@ -214,6 +214,27 @@ body {
   max-width: 19%;
 }
 
+.btn-primary {
+  color: white;
+  background-color: #56ccf2;
+  border: none;
+  border-radius: 0.3em;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.btn-primary:hover {
+  background-color: #2d9cdb;
+}
+
+.btn-primary:focus,
+.btn-primary:focus-visible,
+.btn-primary:focus-within {
+  background-color: #2a89c1;
+  outline: 2px solid #56ccf2;
+  outline-offset: 2px;
+}
+
 @media screen and (max-width: 500px) {
   .main-footer-container {
     flex-direction: column;
