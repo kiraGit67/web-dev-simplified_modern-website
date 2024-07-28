@@ -244,6 +244,28 @@ body {
     align-items: center;
   }
 
+  .main-header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .band-name-large {
+    font-size: 6.25em;
+  }
+
+  .btn-header {
+    margin: 0 0.25rem;
+    padding-inline: 0.75em;
+  }
+
+  .btn-play {
+    display: flex;
+    align-self: center;
+    align-items: center;
+    justify-content: center;
+  }
+
   .about-band-image {
     float: none;
     width: 300px;
