@@ -179,6 +179,8 @@ body {
 }
 
 .tour-row {
+  display: grid;
+  grid-template-columns: 11% 24% 42% 19%;
   border-bottom: 1px solid black;
   padding-bottom: 1em;
 }
@@ -199,19 +201,19 @@ body {
 .tour-date {
   color: #777;
   font-weight: bold;
-  width: 11%;
+  _width: 11%;
 }
 
 .tour-city {
-  width: 24%;
+  _width: 24%;
 }
 
 .tour-arena {
-  width: 42%;
+  _width: 42%;
 }
 
 .tour-btn {
-  max-width: 19%;
+  _max-width: 19%;
 }
 
 .btn-primary {
