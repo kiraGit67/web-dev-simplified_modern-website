@@ -199,7 +199,7 @@ body {
 }
 
 .tour-date {
-  color: #777;
+  color: #2d9cdb;
   font-weight: bold;
   _width: 11%;
 }
@@ -252,5 +252,12 @@ body {
 
   p {
     text-align: center;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .tour-row {
+    grid-template-columns: 65% 35%;
+    grid-row-gap: 0.5rem;
   }
 }
