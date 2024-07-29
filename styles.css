@@ -339,6 +339,7 @@ body {
   border: none;
   border-radius: 0.3em;
   font-weight: bold;
+  text-transform: uppercase;
 }
 
 .btn-danger:hover {
@@ -350,6 +351,17 @@ body {
 .btn-danger:focus-within {
   outline: 1px solid red;
   outline-offset: 1px;
+}
+
+.cart-quantity-input {
+  height: 35px;
+  width: 50px;
+  border-radius: 5px;
+  border: 1px solid #56ccf2;
+  background-color: #eee;
+  text-align: center;
+  font-size: 1.2em;
+  margin-right: 25px;
 }
 
 /* Media Queries */
