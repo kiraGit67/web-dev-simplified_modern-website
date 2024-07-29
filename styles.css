@@ -372,6 +372,23 @@ body {
   margin-right: 25px;
 }
 
+/* cart total styling */
+.cart-total {
+  text-align: end;
+}
+
+.cart-total-title {
+  font-weight: bold;
+  font-size: 1.5em;
+  color: black;
+  margin-right: 20px;
+}
+
+.cart-total-price {
+  color: #333;
+  font-size: 1.1em;
+}
+
 /* Media Queries */
 
 @media screen and (max-width: 500px) {
