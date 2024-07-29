@@ -299,6 +299,8 @@ body {
 }
 
 .cart-column {
+  display: flex;
+  align-items: center;
   border-bottom: 1px solid black;
   margin-right: 1.5em;
   padding-bottom: 10px;
