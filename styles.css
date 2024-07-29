@@ -345,6 +345,13 @@ body {
   background-color: #cc4c4c;
 }
 
+.btn-danger:focus,
+.btn-danger:focus-visible,
+.btn-danger:focus-within {
+  outline: 1px solid red;
+  outline-offset: 1px;
+}
+
 /* Media Queries */
 
 @media screen and (max-width: 500px) {
