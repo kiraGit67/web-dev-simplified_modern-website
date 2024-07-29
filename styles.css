@@ -250,6 +250,21 @@ body {
   outline-offset: 2px;
 }
 
+/* store section styling */
+.shop-item {
+  margin: 30px;
+}
+
+.shop-item-title {
+  display: block;
+  width: 100%;
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.5em;
+  color: #333;
+  margin-bottom: 15px;
+}
+
 /* Media Queries */
 
 @media screen and (max-width: 500px) {
