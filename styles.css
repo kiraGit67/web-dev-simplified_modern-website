@@ -265,6 +265,11 @@ body {
   margin-bottom: 15px;
 }
 
+.shop-item-image {
+  height: 250px;
+  aspect-ratio: 1;
+}
+
 /* Media Queries */
 
 @media screen and (max-width: 500px) {
