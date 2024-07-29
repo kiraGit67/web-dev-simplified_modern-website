@@ -305,6 +305,18 @@ body {
   margin-top: 10px;
 }
 
+.cart-item {
+  width: 45%;
+}
+
+.cart-price {
+  width: 20%;
+}
+
+.cart-quantity {
+  width: 35%;
+}
+
 /* Media Queries */
 
 @media screen and (max-width: 500px) {
