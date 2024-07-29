@@ -389,6 +389,13 @@ body {
   font-size: 1.1em;
 }
 
+.btn-purchase {
+  display: block;
+  margin: 40px auto 80px auto;
+  font-size: 1.75rem;
+  text-transform: uppercase;
+}
+
 /* Media Queries */
 
 @media screen and (max-width: 500px) {
