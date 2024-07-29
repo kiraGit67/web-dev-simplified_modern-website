@@ -250,7 +250,7 @@ body {
   outline-offset: 2px;
 }
 
-/* store section styling */
+/* music and merch section styling */
 .shop-items {
   display: flex;
   flex-wrap: wrap;
@@ -285,6 +285,20 @@ body {
 .shop-item-price {
   flex-grow: 1;
   color: #333;
+}
+
+/* cart section styling */
+.cart-header {
+  font-weight: bold;
+  font-size: 1.2em;
+  color: #333;
+}
+
+.cart-column {
+  border-bottom: 1px solid black;
+  margin-right: 1.5em;
+  padding-bottom: 10px;
+  margin-top: 10px;
 }
 
 /* Media Queries */
