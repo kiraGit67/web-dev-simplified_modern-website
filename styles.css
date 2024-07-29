@@ -341,6 +341,10 @@ body {
   font-weight: bold;
 }
 
+.btn-danger:hover {
+  background-color: #cc4c4c;
+}
+
 /* Media Queries */
 
 @media screen and (max-width: 500px) {
