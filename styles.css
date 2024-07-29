@@ -288,8 +288,19 @@ body {
 }
 
 /* cart section styling */
+.cart-items {
+}
+
 .cart-row {
   display: flex;
+}
+
+.cart-row:last-child {
+  border-bottom: 1px solid black;
+}
+
+.cart-row:last-child .cart-column {
+  border: none;
 }
 
 .cart-header {
