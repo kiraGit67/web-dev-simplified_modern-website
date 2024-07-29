@@ -404,6 +404,16 @@ body {
   p {
     text-align: center;
   }
+
+  .cart-column {
+    flex-wrap: wrap;
+    row-gap: 0.25em;
+    align-items: flex-end;
+  }
+
+  .cart-item-title {
+    margin-left: 0;
+  }
 }
 
 @media screen and (max-width: 767px) {
