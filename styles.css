@@ -251,6 +251,12 @@ body {
 }
 
 /* store section styling */
+.shop-items {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
 .shop-item {
   margin: 30px;
 }
@@ -268,6 +274,17 @@ body {
 .shop-item-image {
   height: 250px;
   aspect-ratio: 1;
+}
+
+.shop-item-details {
+  display: flex;
+  align-items: center;
+  padding: 5px;
+}
+
+.shop-item-price {
+  flex-grow: 1;
+  color: #333;
 }
 
 /* Media Queries */
