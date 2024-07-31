@@ -411,6 +411,12 @@ body {
 }
 
 /* Media Queries */
+@media screen and (max-width: 768px) {
+  .content-section.container#store-content,
+  .content-section.container#content-about {
+    margin-top: 225px;
+  }
+}
 
 @media screen and (max-width: 500px) {
   .main-footer-container {
