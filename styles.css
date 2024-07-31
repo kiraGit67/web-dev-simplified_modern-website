@@ -104,6 +104,11 @@ body {
   margin-top: 45%;
 }
 
+.content-section.container#store-content,
+.content-section.container#content-about {
+  margin-top: 20%;
+}
+
 .section-header {
   font-family: "Metal Mania";
   font-weight: normal;
